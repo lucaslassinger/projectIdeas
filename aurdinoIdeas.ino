@@ -1,4 +1,6 @@
 // Arduino Ideas
 void setup() {
-print("ASL Signer");
+    Serial.begin(9600);
+    Serial.print("ASL Signer");
+    Serial.print("Camera slider");
 }
